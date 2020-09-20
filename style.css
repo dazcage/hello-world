@@ -1,4 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -56,7 +57,8 @@ html {
 h1 {
 	text-align: center;
 	color: #0400f2;
-	font-size: xx-large;
+	font-size: 45px;
+	font-family: 'Libre Barcode 128 Text', cursive;
 }
 
 div{
@@ -64,4 +66,12 @@ div{
 	display: flex; 
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+}
+
+p{
+	color: #640e8c;
+	font-size: large;
+	font-family: 'Dancing Script', cursive;
+	padding-top: 10px;
 }
