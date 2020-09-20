@@ -46,3 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* end of reset */
+html {
+	background-color: #fc0303;
+}
+
+h1 {
+	text-align: center;
+	color: #0400f2;
+	font-size: xx-large;
+}
+
+div{
+	height:100vh;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
