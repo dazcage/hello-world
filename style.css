@@ -75,3 +75,11 @@ p{
 	font-family: 'Dancing Script', cursive;
 	padding-top: 10px;
 }
+
+img{
+    height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 600px;
+	padding-top: 20px;
+}
