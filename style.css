@@ -82,10 +82,19 @@ img{
     max-width: 600px; 
     max-height: 600px;
 	padding-top: 20px;
+	border-radius: 50%;
 }
 
-.circular--portrait {
-	position: center;
+p{
+	height:auto;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+  .circular--portrait {
+	position: relative;
 	width: 200px;
 	height: 200px;
 	overflow: hidden;
@@ -97,4 +106,5 @@ img{
 	height: auto%;
   }
 
+  
   
