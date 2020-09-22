@@ -54,7 +54,7 @@ html {
 	background-color: #fc0303;
 }
 
-h1 {
+h1{
 	text-align: center;
 	color: #0400f2;
 	font-size: 45px;
@@ -74,6 +74,7 @@ p{
 	font-size: large;
 	font-family: 'Dancing Script', cursive;
 	padding-top: 10px;
+	text-decoration: underline;
 }
 
 img{
@@ -83,14 +84,6 @@ img{
     max-height: 600px;
 	padding-top: 20px;
 	border-radius: 50%;
-}
-
-p{
-	height:auto;
-	display: flex; 
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 }
 
   .circular--portrait {
